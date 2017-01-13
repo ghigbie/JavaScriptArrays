@@ -3,3 +3,9 @@
 
 var colors = ["red", "orange", "yellow"];
 
+colors[3] = "green";
+
+colors[3] = "dark green";
+
+colors[10] = "violet"; //this leaves a lot of empty values "undefined"
+
