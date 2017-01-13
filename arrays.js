@@ -31,6 +31,18 @@ dogColors.unshift("infrared");
 
 var col = dogColors.shift(); //remturns a value that can be stored in a variable
 
+var nums =[34, 54, 22];
+nums.unshift("Hello");
+
+nums.shift();
+
+//indexOf() - it takes an argument and trys to find that argument in an array
+//returns the first value that matches
+
+var friends2 = ["Charlie", "Liz", "David", "Mattias", "Liz"];
+friends2.indexOf("David");
+friends2.indexOf("Liz"); //1 and NOT 4
+firends2.indexOf("Hagrid") //will return -1 because it does not exist
 
 
 
