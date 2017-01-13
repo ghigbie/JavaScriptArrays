@@ -44,5 +44,16 @@ friends2.indexOf("David");
 friends2.indexOf("Liz"); //1 and NOT 4
 firends2.indexOf("Hagrid") //will return -1 because it does not exist
 
+//slice() - copy parts of an array
+
+var fruits = ["Banana", "Orange", "lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1,3);
+
+//slice can also copy and existing array
+var nums2 = [1,2,3];
+var nums2 = nums2.slice();
+
+
+
 
 
